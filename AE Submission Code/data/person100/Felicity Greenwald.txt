@@ -1,0 +1,20 @@
+email
+f.greenwald@rivertownuni.edu
+
+mail
+Department of History, Rivertown University, 123 History Hall, Rivertown, RT 54321, USA
+
+phone
+(555) 123-4567
+
+affiliation
+Rivertown University
+
+occupation
+an esteemed Affiliate Assistant Professor in History at Rivertown University
+
+education
+B.A. in History, Summa Cum Laude, Rivertown University and M.A. in European History, Magna Cum Laude, Rivertown University and at Ph.D. in History with a focus on Renaissance Studies, Rivertown University
+
+work
+Teaching Assistant, Department of History, Rivertown University (2016-2018) and Visiting Scholar, History of Science Department, Oldtown College (2018-2019) Affiliate Assistant Professor in History, Rivertown University (2019-Present)

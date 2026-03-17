@@ -1,0 +1,13 @@
+{
+    "task_info":{
+        "task":"info_extraction",
+        "type":"text_generation"
+    },
+    "dataset_info":{
+        "dataset":"person100",
+        "path":"./data/person100",
+        "label_path":"./data/person100/labels.json",
+        "icl_path":"./data/person_icl",
+        "icl_label_path":"./data/person_icl/labels.json"
+    }
+}

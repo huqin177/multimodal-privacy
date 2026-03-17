@@ -1,0 +1,41 @@
+{
+    "model_info": {
+        "provider": "multimodal",
+        "name": "multimodal-extractor",
+        "type": "multimodal"
+    },
+
+    "api_key_info": {         
+        "api_keys": [],
+        "api_key_use": -1
+    },
+
+    "params": {                
+        "gpus": "",             
+        "batch_size": 1,
+        "max_length": 512,
+        "max_output_tokens": 150,
+        "repetition_penalty": 1.0,
+        "temperature": 0.1,
+        "seed":42,
+        "device": "cpu",
+        "max_gpu_memory": "",   
+        "revision": "main",
+        "load_8bit": "False",
+        "debug": "False",
+        "cpu_offloading": "False"
+    },
+    "text_model": {
+        "model_name": "distilbert-base-chinese",
+        "device": "cpu"
+    },
+    "image_model": {
+        "detector": "yolov8n",
+        "ocr": "paddleocr",
+        "device": "cpu"
+    },
+    "crossmodal_model": {
+        "matcher": "clip-vit-base",
+        "similarity_threshold": 0.8
+    }
+}

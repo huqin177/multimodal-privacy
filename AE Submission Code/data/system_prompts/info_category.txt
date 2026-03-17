@@ -1,0 +1,8 @@
+name
+email
+mail
+phone
+work
+education
+affiliation
+occupation

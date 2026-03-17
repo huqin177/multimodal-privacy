@@ -1,0 +1,20 @@
+email
+akiko.tanaka@techcorpsolutions.com
+
+mail
+123 Tech Avenue, Minato-ku, Tokyo 100-0001, Japan
+
+phone
++81-90-1234-5678
+
+affiliation
+TechCorp Solutions, a leading tech company based in Tokyo, Japan
+
+occupation
+a Marketing Manager at TechCorp Solutions, a leading tech company based in Tokyo, Japan
+
+education
+Bachelor of Business Administration (BBA) - Tokyo University and Master of Marketing - Tokyo Institute of Technology
+
+work
+Marketing Manager at TechCorp Solutions (Current) and Senior Marketing Specialist at GlobalTech Innovations and Marketing Coordinator at SoftLink Solutions

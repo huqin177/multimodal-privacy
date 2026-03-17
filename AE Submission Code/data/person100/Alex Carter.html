@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Carter | Software Engineer</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        header { background: #333; color: #fff; padding-top: 30px; min-height: 70px; border-bottom: #006699 3px solid; }
+        header a { color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
+        header ul { padding: 0; list-style: none; }
+        header ul li { display: inline; padding: 0 20px 0 20px; }
+        header #branding { float: left; }
+        header #branding h1 { margin: 0; }
+        header nav { float: right; margin-top: 10px; }
+        header .highlight, header .current a { color: #e8491d; font-weight: bold; }
+        header a:hover { color: #ffffff; font-weight: bold; }
+        footer { background: #333; color: #fff; text-align: center; padding: 30px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Alex Carter</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe to my newsletter for the latest updates on my projects</h1>
+            <form>
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">About Me</h1>
+                <p>I am a software engineer currently working at Google, with a passion for developing innovative machine learning algorithms. I have a strong educational background with a B.S. in Computer Science from Stanford University.</p>
+                <p class="dark">In my spare time, I love to engage in landscape photography and explore hiking trails.</p>
+            </article>
+
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3>Contact Info</h3>
+                    <p>If you wish to reach out to me for professional queries or sharing a common interest in photography and hiking, you can contact me at:</p>
+                    <ul>
+                        <li>Email: <a href="mailto:alex.carter.dev@google-net.com">alex.carter.dev@google-net.com</a></li>
+                        <li>Phone: 555-0123</li>
+                        <li>Mailing Address: 1234 Silicon Blvd, Tech City, TC 67890</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <p>Alex Carter © 2023</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+email
+vanessa.carter@starfalluni.edu
+
+mail
+123 Academic Ave, Scholarstown, ST, 98765
+
+phone
+555-0123
+
+affiliation
+Starfall University
+
+occupation
+Professor of Anthropology at Starfall University
+
+education
+Ph.D. in Anthropology - Emerald Peak University and Master’s in World Cultures - Horizon College and Bachelor’s in History - Rivertown University
+
+work
+Associate Professor at Starfall University, Department of Anthropology (2018-Present) and Assistant Professor at Lakeside College, Department of Social Sciences (2013-2018) and Research Assistant at Emerald Peak University, Department of Anthropology (2008-2013)

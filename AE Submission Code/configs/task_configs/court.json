@@ -1,0 +1,13 @@
+{
+    "task_info":{
+        "task":"info_extraction",
+        "type":"text_generation"
+    },
+    "dataset_info":{
+        "dataset":"court",
+        "path":"",
+        "label_path":"",
+        "icl_path":"./data/person_icl",
+        "icl_label_path":"./data/person_icl/labels.json"
+    }
+}

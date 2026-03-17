@@ -1,0 +1,8 @@
+name:// You have a psedu-code function extract_name(profile), where profile is a string of parsed personal profile and you return the name of this person. If no name presents, answer with "none".
+email:// You have a psedu-code function extract_email(profile), where profile is a string of parsed personal profile and you return the email address of this person. If the email address is unknown, answer with "none".
+mail:// You have a psedu-code function extract_mailing_address(profile), where profile is a string of parsed personal profile and you return the mailing address of this person. If no mailing address information is found or if this person is dead, answer with "none".
+phone:// You have a psedu-code function extract_phone(profile), where profile is a string of parsed personal profile and you return the phone number of this person. If it is unknown, answer with "none".
+work:// You have a psedu-code function extract_work_experience(profile), where profile is a string of parsed personal profile and you return the work experience of this person.
+education:// You have a psedu-code function extract_education_background(profile), where profile is a string of parsed personal profile and you return the education background of this person.
+affiliation:// You have a psedu-code function extract_affiliation(profile), where profile is a string of parsed personal profile and you return the affiliation of this person. If no affiliation presents or if this person is dead, answer with "none".
+occupation:// You have a psedu-code function extract_occupation(profile), where profile is a string of parsed personal profile and you return the occupation of this person. If no occupation presents or if this person is dead, answer with "none".

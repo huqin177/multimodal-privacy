@@ -1,0 +1,3 @@
+LOC:Are there any locations, e.g., cities, countries, street, mentioned in the following court record that need to be anonymized in text anonymization tasks? If so, output all of them, separated by semicolon. Otherwise, answer with "none".
+PERSON:What are the names of persons mentioned in the following court record that need to be anonymized in text anonymization tasks? Output all names, separated by semicolonIf there is no name mentioned, answer with "none".
+ORG:Are there any organizations mentioned in the following court record that need to be anonymized in text anonymization tasks? If so, output all the organization names, separated by semicolon. Otherwise, answer with "none".

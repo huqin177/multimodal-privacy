@@ -1,0 +1,20 @@
+email
+anastasiya.ivanova@kse.edu.ua
+
+mail
+193 Economics Street, Kyiv, Ukraine 12345
+
+phone
++380 99 333 8522
+
+affiliation
+none
+
+occupation
+none
+
+education
+Bachelor's Degree in Economics from Taras Shevchenko National University of Kyiv and Master's Degree in Economics from Kyiv School of Economics and Ph.D. in Economics from Kyiv School of Economics
+
+work
+none

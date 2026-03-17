@@ -1,0 +1,20 @@
+email
+m.taylor@midwooduni.edu
+
+mail
+1234 Oak Lane, Forestville, 98765
+
+phone
+(555) 012-3456
+
+affiliation
+Green Earth Initiative
+
+occupation
+Intern at Green Earth Initiative
+
+education
+Master's student in Environmental Science at Midwood University
+
+work
+Intern at Green Earth Initiative and Volunteer Coordinator at Community Clean-up

@@ -1,0 +1,20 @@
+email
+chika.obi@universityofuyo.edu.ng
+
+mail
+Chika Obi Department of Computer Science University of Uyo Uyo, Akwa Ibom State Nigeria
+
+phone
++234-123-4567
+
+affiliation
+the University of Uyo, Nigeria
+
+occupation
+lecturer at the University of Uyo, Nigeria
+
+education
+Bachelor of Science in Computer Science from the University of Lagos and Master's in Information Technology from the University of Uyo and Ph.D. in Computer Science from the University of Ibadan
+
+work
+Chika has been a lecturer at the University of Uyo for the past 8 years. During this time, they have taught various computer science courses and have actively contributed to research in the field.

@@ -1,0 +1,20 @@
+email
+ursula.photos@fakemail.com
+
+mail
+1234 Canvas Lane, Artville, Creativia
+
+phone
++123-456-7890
+
+affiliation
+none
+
+occupation
+Freelance Photographer
+
+education
+I'm Ursula Bennett, a passionate photographer with a B.A. in Visual Arts from Imaginary University. Specializing in capturing the essence of the moment.
+
+work
+Freelance Photographer, various events and publications.

@@ -1,0 +1,20 @@
+email
+wmtan@ncu.edu.sg
+
+mail
+none
+
+phone
++65 1234 5678
+
+affiliation
+National Central University
+
+occupation
+a highly respected academic and a professor at National Central University
+
+education
+Dr. Wei Ming Tan was born and raised in Singapore, where he developed a deep appreciation for education from a young age. He holds a Bachelor's Degree in Computer Science from the National University of Singapore and completed his Ph.D. in Computer Science from Stanford University. His research primarily centers around developing innovative algorithms for real-world applications, particularly in the fields of healthcare and robotics.
+
+work
+Dr. Wei Ming Tan currently serves as an Assistant Professor at National Central University. Prior to his current position, he worked as a Research Scientist at the Institute of Computer Science in Singapore.

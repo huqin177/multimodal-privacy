@@ -1,0 +1,20 @@
+email
+p.anderson@unispringfield.edu
+
+mail
+45 Oak Leaf Lane, Springfield, SP, 12345
+
+phone
++123-456-7890
+
+affiliation
+the University of Springfield
+
+occupation
+Lecturer at the University of Springfield
+
+education
+Ph.D. in Environmental Science, M.Sc. in Biology, B.Sc. in Natural Sciences
+
+work
+5 years as a Senior Researcher at GreenTech Innovations, 3 years as an Environmental Consultant at EarthSafe

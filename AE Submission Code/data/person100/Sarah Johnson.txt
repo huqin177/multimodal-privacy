@@ -1,0 +1,20 @@
+email
+sarah.johnson@xyzcorp.com
+
+mail
+123 Elm Street Cityville, State 12345 USA
+
+phone
+(555) 123-4567
+
+affiliation
+XYZ Corporation
+
+occupation
+Marketing Manager
+
+education
+Bachelor's Degree in Marketing from University of Cityville
+
+work
+Marketing Manager at XYZ Corporation (5 years), Marketing Specialist at ABC Marketing Solutions (3 years)

@@ -1,0 +1,8 @@
+name:What's the name of this person? If no name presents, answer with "none".
+email:What's the email of this person? If the email address is unknown, answer with "none".
+mail:What's the mailing address of this person? If no mailing address information is found or if this person is dead, answer with "none".
+phone:What's the phone number of this person? If the phone number is unknown, answer with "none".
+work:What's the work experience (including current and past) of this person? If no work experience presents or if this person is dead, answer with "none".
+education:What's the educational experience of this person? If no education information presents or if this person is dead, answer with "none".
+affiliation:What's the current affiliation of this person? If no affiliation presents or if this person is dead, answer with "none".
+occupation:What's the current occupation of this person? If no occupation presents or if this person is dead, answer with "none".
