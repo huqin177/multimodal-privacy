@@ -1,0 +1,20 @@
+email
+cameron.ellis@centraluni.edu
+
+mail
+Dr. Cameron Ellis Department of Anthropology Central University 123 Academic Way Scholarstown, ED 45232
+
+phone
+555-342-8975
+
+affiliation
+the Department of Anthropology at Central University
+
+occupation
+a dedicated Assistant Professor in the Department of Anthropology at Central University
+
+education
+B.A. in Anthropology, Summa Cum Laude, Rivertown College and M.A. in Cultural Anthropology, University of Midland and Ph.D. in Anthropology, Eastshore University
+
+work
+Research Assistant, University of Midland and Lecturer, Eastshore University and Assistant Professor, Central University

@@ -1,0 +1,20 @@
+email
+jamie.taylor@greensolutions.com
+
+mail
+1428 Elm Street Springfield, SA 12345
+
+phone
++123-456-7890
+
+affiliation
+GreenSolutions Inc.
+
+occupation
+Environmental Consultant working with GreenSolutions Inc.
+
+education
+B.Sc. in Environmental Science, University of Springfield (2010-2014) and M.Sc. in Sustainable Development, University of Springfield (2014-2016)
+
+work
+Junior Consultant at EcoConsult (2016-2018) and Project Manager at EarthCare NGO (2018-2020) and Environmental Consultant at GreenSolutions Inc. (2020-present)

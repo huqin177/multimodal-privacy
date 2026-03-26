@@ -1,0 +1,20 @@
+email
+vesper.nightshade@ai99corp.com
+
+mail
+123 Machine Learning Lane, Aurora Heights, AI 98765, United States
+
+phone
+(555) 123-4567
+
+affiliation
+AI99
+
+occupation
+a Machine Learning Engineer at AI99
+
+education
+I hold a Bachelor's Degree in Computer Science from Aurora University and a Master's Degree in Machine Learning and Artificial Intelligence from TechnoTech Institute.
+
+work
+work as a Machine Learning Engineer at AI9

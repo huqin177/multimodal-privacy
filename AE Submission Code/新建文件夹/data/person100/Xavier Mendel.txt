@@ -1,0 +1,20 @@
+email
+x.mendel@greenfuture.com
+
+mail
+422 Green Park Ave, EcoCity, EC 90210
+
+phone
+555-0267
+
+affiliation
+GreenFuture Innovations
+
+occupation
+Environmental Scientist at GreenFuture Innovations
+
+education
+B.Sc. in Environmental Science from Terra University
+
+work
+5 years of field research in renewable energy solutions

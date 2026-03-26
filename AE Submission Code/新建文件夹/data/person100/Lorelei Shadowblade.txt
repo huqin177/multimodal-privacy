@@ -1,0 +1,20 @@
+email
+lorelei.shadowblade@newtoncollege.edu
+
+mail
+Lorelei's office is located in the History and Archaeology Department building on the third floor, room 305, at Newton College.
+
+phone
+(555) 789-0123
+
+affiliation
+Newton College
+
+occupation
+a highly respected lecturer at Newton College
+
+education
+Ph.D. in Archaeology from Avalon University and Master's Degree in Ancient History from Eldoria Institute of Archaeology and Bachelor's Degree in Anthropology from Rivertown University
+
+work
+Lecturer in Archaeology and Ancient History at Newton College and Lead Archaeologist at Archaeological Society of Eldoria and Curator of Ancient Artifacts at Rivertown Museum of History

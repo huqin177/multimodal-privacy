@@ -1,0 +1,20 @@
+email
+akira.tanaka@toyotaengineering.com
+
+mail
+123 Main Street, Tokyo, Japan, Zip Code: 12345
+
+phone
++81 123-456-7890
+
+affiliation
+Toyota Motor Corporation
+
+occupation
+Senior Engineer at Toyota Motor Corporation
+
+education
+Bachelor of Science in Mechanical Engineering from the University of Tokyo and Master of Engineering in Automotive Design from Nagoya Institute of Technology
+
+work
+Junior Engineer at Toyota Motor Corporation (5 years) and Senior Engineer at Toyota Motor Corporation (current position, 10 years)

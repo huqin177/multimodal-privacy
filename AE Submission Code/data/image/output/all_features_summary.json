@@ -1,0 +1,111 @@
+[
+  {
+    "image": "data\\image\\B.png",
+    "feature_count": 2,
+    "features": [
+      {
+        "label": "full_image",
+        "confidence": 1.0,
+        "ocr_text": "NAME Amy Fn GENDB: Female NATIONALITY: USA BIRTH 1990.5.4 ADDRESS: 5678 Maple AvenueSpringfield, I 6",
+        "entities": {
+          "姓名": "Amy",
+          "性别": "Female",
+          "国籍": "USA",
+          "身份证号": "2015188005046234",
+          "出生日期": "1990.5.4",
+          "地址": "5678 Maple AvenueSpringfield, I 62704United States T2L0"
+        }
+      },
+      {
+        "label": "person",
+        "confidence": 0.6067514419555664,
+        "ocr_text": "Fhn 1(",
+        "entities": {}
+      }
+    ]
+  },
+  {
+    "image": "data\\image\\B2.png",
+    "feature_count": 2,
+    "features": [
+      {
+        "label": "full_image",
+        "confidence": 1.0,
+        "ocr_text": "NAME Anna Schmidt GENDBR Remale NATIONALITY: China BIRTH 1991.9.8 ADDRESS: Unter den Linden 77 Berli",
+        "entities": {
+          "姓名": "Anna",
+          "国籍": "China",
+          "身份证号": "110115199109087654",
+          "出生日期": "1991.9.8",
+          "地址": "Unter den Linden 77 Berlin 10117 Germany"
+        }
+      },
+      {
+        "label": "person",
+        "confidence": 0.8902793526649475,
+        "ocr_text": "4",
+        "entities": {}
+      }
+    ]
+  },
+  {
+    "image": "data\\image\\B3.png",
+    "feature_count": 2,
+    "features": [
+      {
+        "label": "full_image",
+        "confidence": 1.0,
+        "ocr_text": "NAME Chen GEMDBR Male NATIONALITY: China BIRTHI 1987.8.19 ADDRESS: 288 Tianhe Road Guangzhou 510620 ",
+        "entities": {
+          "姓名": "Chen",
+          "国籍": "China",
+          "身份证号": "110115198708194321",
+          "出生日期": "1987.8.19",
+          "地址": "288 Tianhe Road Guangzhou 510620 China"
+        }
+      },
+      {
+        "label": "person",
+        "confidence": 0.7085626721382141,
+        "ocr_text": "",
+        "entities": {}
+      }
+    ]
+  },
+  {
+    "image": "data\\image\\B4.png",
+    "feature_count": 2,
+    "features": [
+      {
+        "label": "full_image",
+        "confidence": 1.0,
+        "ocr_text": "NAME David Wilson GENDBR: Male NATIONALITY: USA BIRTHI 1986.9.23 ADDRESS: 789 Broadway New York AY 1",
+        "entities": {
+          "姓名": "Dav",
+          "国籍": "USA",
+          "身份证号": "110115198609237654",
+          "出生日期": "1986.9.23",
+          "地址": "789 Broadway New York AY 10003 United States"
+        }
+      },
+      {
+        "label": "person",
+        "confidence": 0.898398756980896,
+        "ocr_text": "",
+        "entities": {}
+      }
+    ]
+  },
+  {
+    "image": "data\\image\\D2.png",
+    "feature_count": 1,
+    "features": [
+      {
+        "label": "full_image",
+        "confidence": 1.0,
+        "ocr_text": "istgeorge amplify 110115198708194321 46茏 # },旷 ~0@l酬 VSA 5TNUR",
+        "entities": {}
+      }
+    ]
+  }
+]

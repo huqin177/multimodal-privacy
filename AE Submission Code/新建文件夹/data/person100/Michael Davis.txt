@@ -1,0 +1,20 @@
+email
+michael.davis@anturetechsolution.com
+
+mail
+123 Elm Street, Anytown, USA
+
+phone
+(555) 123-4567
+
+affiliation
+Anture Tech Solution
+
+occupation
+a skilled Software Development Engineer currently working at Anture Tech Solution
+
+education
+He has a Bachelor of Science degree in Computer Science from the University of Techville.
+
+work
+Michael Davis is a skilled Software Development Engineer currently working at Anture Tech Solution.

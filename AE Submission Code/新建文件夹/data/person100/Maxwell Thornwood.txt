@@ -1,0 +1,20 @@
+email
+max.thornwood@edu.hkust
+
+mail
+Department of Computer Science and Engineering, HKUST, Clear Water Bay, Kowloon, Hong Kong SAR, 0000
+
+phone
++852 1242 5638
+
+affiliation
+HKUST
+
+occupation
+Maxwell Thornwood is a Teaching Assistant Professor at HKUST
+
+education
+B.Sc. in Computer Science - University of Toronto, Canada and M.Sc. in Software Engineering - Imperial College London, UK and Ph.D. in Computer Science - Massachusetts Institute of Technology (MIT), USA
+
+work
+Software Developer at InnoTech Solutions, Toronto (2007-2010) and Research Assistant at Imperial College London (2010-2012) and Data Scientist at Quantum Analytics, San Francisco (2012-2014) and Assistant Professor at HKUST (2014-Present)

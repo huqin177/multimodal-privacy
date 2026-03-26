@@ -1,0 +1,20 @@
+email
+evelyn.sterling@duke.edu
+
+mail
+none
+
+phone
+none
+
+affiliation
+Duke University
+
+occupation
+Assistant Professor
+
+education
+I received my Ph.D. degree in cognitive psychology from MIT
+
+work
+Love for all things tech, science fiction, and gaming. By day, I'm an Assistant Professor at Duke University, and by night, I'm an explorer of the digital frontier.

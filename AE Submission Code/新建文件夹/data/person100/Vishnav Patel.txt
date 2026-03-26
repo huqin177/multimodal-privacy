@@ -1,0 +1,20 @@
+email
+vishnav.patel@anu.edu
+
+mail
+none
+
+phone
+2361485263
+
+affiliation
+Acharya Nagarjuna University
+
+occupation
+a dedicated and passionate professor at Acharya Nagarjuna University
+
+education
+Ph.D. in Computer Engineering from Acharya Nagarjuna University and Master's Degree in Computer Engineering from Acharya Nagarjuna University and Bachelor's Degree in Computer Engineering from Acharya Nagarjuna University
+
+work
+Dr. Vishnav Patel is a dedicated and passionate professor at Acharya Nagarjuna University. He has a strong background in academia and is known for his expertise in the field of Computer Engineering. With years of research and teaching experience, he is committed to nurturing young minds and contributing to the academic community.

@@ -1,0 +1,10 @@
+# 类别数量（你标注了3类：face/id_card/bank_card）
+nc: 3
+# 类别名（ID和标注时一致！0=face，1=id_card，2=bank_card）
+names: ["face", "id_card", "bank_card"]
+
+# 训练/验证集图片路径（相对路径，和代码同级）
+train: image
+val: image
+# 可选：测试集路径（无则注释）
+# test: ./datasets/images/test

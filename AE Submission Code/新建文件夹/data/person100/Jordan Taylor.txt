@@ -1,0 +1,20 @@
+email
+jordan.taylor@greenhorizonsolutions.net
+
+mail
+455 Maple Avenue, Springfield, ST, 98765
+
+phone
++1-555-0198
+
+affiliation
+Green Horizon Solutions
+
+occupation
+Environmental Consultant at Green Horizon Solutions
+
+education
+B.Sc. in Environmental Science from Riverdale University
+
+work
+EcoConsulting Group - 5 years as an Environmental Analyst and Green Horizon Solutions - 3 years as an Environmental Consultant

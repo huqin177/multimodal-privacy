@@ -1,0 +1,20 @@
+email
+avery.quinn@curtinuni.edu.au
+
+mail
+Dr. Avery Quinn, Department of Astrophysics, Curtin University, Kent Street, Bentley, Perth, WA 6102, Australia
+
+phone
++61 8 9467 1234
+
+affiliation
+Curtin University
+
+occupation
+astrophysics researcher at Curtin University
+
+education
+B.Sc. in Physics - University of Western Australia, Perth and M.Sc. in Astrophysics - Australian National University, Canberra and Ph.D. in Cosmology - Curtin University, Perth
+
+work
+Research Assistant - International Centre for Radio Astronomy Research (ICRAR), Perth and Teaching Assistant - Department of Physics, University of Western Australia and Postdoctoral Research Fellow - Curtin University

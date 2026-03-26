@@ -1,0 +1,20 @@
+email
+alex.jordan@virtualtechhub.com
+
+mail
+123 Vir Lane, Tech City, Innovation State, 45678
+
+phone
++1 232 267 8900
+
+affiliation
+Meta
+
+occupation
+Research Scientist at Meta
+
+education
+B.Sc. in Computer Science, Western Sydney University and M.Sc. in Artificial Intelligence, Western Sydney University and Ph.D. in Human-Computer Interaction, La Trobe University
+
+work
+2010-2012: Junior Developer at Tech Innovations Inc. and 2012-2015: AI Specialist at Smart Solutions Ltd. and 2015-2019: Senior AI Researcher at Virtual Tech Hub and 2019-present: Research Scientist at Meta

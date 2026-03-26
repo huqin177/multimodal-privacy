@@ -1,0 +1,20 @@
+email
+isabel.archer@insightfuldata.com
+
+mail
+500 Fiction Lane, Storybook Town, Imaginaria, ZIP 12345
+
+phone
++1-234-567-8900
+
+affiliation
+Insightful Data Inc.
+
+occupation
+Data Analyst at Insightful Data Inc.
+
+education
+B.Sc. in Data Science from the University of Virtuality, Class of 2018.
+
+work
+Junior Data Analyst at Analytica Thinktank (2018-2020) and Data Analyst at Insightful Data Inc. (2020-Present)

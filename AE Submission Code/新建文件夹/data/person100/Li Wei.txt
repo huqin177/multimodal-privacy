@@ -1,0 +1,20 @@
+email
+li.wei@xiamencollege.edu.cn
+
+mail
+Li Wei Xiamen College 123 University Avenue Xiamen, Fujian Province China, 361005
+
+phone
++86 123 456 7890
+
+affiliation
+Xiamen College
+
+occupation
+an accomplished professor of economics at Xiamen College
+
+education
+Ph.D. in Economics from Fudan University and Master's in Economics from Peking University and Bachelor's in Economics from Renmin University
+
+work
+Li Wei is an accomplished professor of economics at Xiamen College, known for their expertise in macroeconomics and international trade. They have published numerous research papers and authored several books on economic policy and globalization. Li Wei is dedicated to fostering a deep understanding of economics among their students and colleagues.

@@ -1,223 +1,68 @@
-import os
-import time
-from tqdm import tqdm
+import streamlit as st
+import numpy as np
+import cv2
+from ultralytics import YOLO
 
+def main():
+    # 加载模型
+    model = YOLO("yolov8n.pt")  # 使用官方预训练模型
 
-def run(provider, model_name, dataset, api_key_pos, defense, prompt_type, icl_num, gpus, adaptive_attack_on_pi, redundant_info_filtering):
-    model_config_path = f'./configs/model_configs/{provider}_config.json'
-    task_config_path = f'./configs/task_configs/{dataset}.json'
+    # 设置Streamlit应用的标题，并使其字体更小
+    col1, col2 = st.columns([3, 1])  # 划分两个列，col1占3份，col2占1份
+    with col1:
+        st.markdown("<h4 style='text-align: left; color: black;'>人脸检测与标注</h4>", unsafe_allow_html=True)
 
-    log_dir = f'./logs/{provider}_{model_name.split("/")[-1]}'
-    os.makedirs(log_dir, exist_ok=True)
+    # 上传图片
+    uploaded_file = st.file_uploader("", type=["jpg", "jpeg", "png", "bmp", "tiff", "webp"])
+    st.markdown("<p style='color: grey;'>鼠标悬停图片，右上角可点击放大！</p>", unsafe_allow_html=True)
 
-    log_file = f'{log_dir}/{dataset}_{defense}_{prompt_type}_{icl_num}_adaptive_{adaptive_attack_on_pi}_filter_{redundant_info_filtering}.txt'
-    
-    if dataset == 'court':
-        script_name = 'main_court.py'
-    else:
-        script_name = 'main.py'
+    if uploaded_file is not None:
+        # 读取上传的文件为 NumPy 数组
+        file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
+        img_array = cv2.imdecode(file_bytes, cv2.IMREAD_COLOR)  # 以 BGR 方式读取图片
 
-    cmd = f"python main.py --model_config_path {model_config_path} --model_name {model_name} --task_config_path {task_config_path} --icl_num {icl_num} --prompt_type {prompt_type} --api_key_pos {api_key_pos} --defense {defense} --adaptive_attack {adaptive_attack_on_pi} --redundant_info_filtering {redundant_info_filtering}"
-    os.system(cmd)   
+        if img_array is None:
+            st.error("无法加载图像，请尝试其他格式。")
+            return
 
-    #cmd = f"CUDA_VISIBLE_DEVICES={gpus}, nohup python3 -u {script_name} \
-     #       --model_config_path {model_config_path} \
-      #      --model_name {model_name} \
-      #      --task_config_path {task_config_path} \
-       #     --icl_num {icl_num} \
-         #   --prompt_type {prompt_type} \
-        #    --api_key_pos {api_key_pos} \
-          #  --defense {defense} \
-           # --gpus {gpus} \
-            #--adaptive_attack {adaptive_attack_on_pi} \
-     #       --redundant_info_filtering {redundant_info_filtering} \
-      #      > {log_file} &"
+        # 保存原图
+        original_img = img_array.copy()
 
-    # if provider == 'internlm':
-    #     cmd = f"CUDA_VISIBLE_DEVICES=2, nohup python3 -u {script_name} \
-    #             --model_config_path {model_config_path} \
-    #             --model_name {model_name} \
-    #             --task_config_path {task_config_path} \
-    #             --icl_num {icl_num} \
-    #             --prompt_type {prompt_type} \
-    #             --api_key_pos {api_key_pos} \
-    #             --defense {defense} \
-    #             --adaptive_attack {adaptive_attack_on_pi} \
-    #             --redundant_info_filtering {redundant_info_filtering} \
-    #             > {log_file} &"
-    # else:
-    #     cmd = f"CUDA_VISIBLE_DEVICES=5, nohup python3 -u {script_name} \
-    #             --model_config_path {model_config_path} \
-    #             --model_name {model_name} \
-    #             --task_config_path {task_config_path} \
-    #             --icl_num {icl_num} \
-    #             --prompt_type {prompt_type} \
-    #             --api_key_pos {api_key_pos} \
-    #             --defense {defense} \
-    #             --gpus {gpus} \
-    #             --adaptive_attack {adaptive_attack_on_pi} \
-    #             --redundant_info_filtering {redundant_info_filtering} \
-    #             > {log_file} &"
+        # 运行YOLO模型进行预测
+        results = model(img_array)
 
-    #os.system(cmd)
-    #return log_file
+        # 解析检测结果
+        total_detections = 0  # 计数变量
 
+        for result in results:
+            num_boxes = len(result.boxes)  # 当前图片的检测目标数量
+            total_detections += num_boxes
 
-def check_complete(log_paths):
-    iter = 0
-    while len(log_paths) > 0:
-        # Prevent inf loop
-        if iter > 10000:
-            print('MAX ITER REACHED! SOMETHING BAD MAY HAVE HAPPENED! ')
-            return False
+            # 解析检测框并绘制
+            for box in result.boxes:
+                x1, y1, x2, y2 = map(int, box.xyxy[0])  # 获取检测框坐标
+                confidence = box.conf[0]  # 置信度
+                class_id = int(box.cls[0])  # 类别 ID
+                label = f"{model.names[class_id]} {confidence:.2f}"  # 生成标签
 
-        new_log_paths = []
+                # 绘制检测框
+                cv2.rectangle(img_array, (x1, y1), (x2, y2), (0, 255, 0), 2)
+                cv2.putText(img_array, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
-        for log_path in log_paths:
-            with open(log_path) as file:
-                lines = file.read().splitlines()
-                if '[END]' not in lines[-1]:
-                    new_log_paths.append(log_path)
+        # 更新右侧显示的人脸数量
+        with col2:
+            st.write(f"检测到的人脸数量: {total_detections}")  # 更新检测到的总数量
 
-        log_paths = new_log_paths.copy()
+        # 将 BGR 转换为 RGB
+        original_img = cv2.cvtColor(original_img, cv2.COLOR_BGR2RGB)
+        img_array = cv2.cvtColor(img_array, cv2.COLOR_BGR2RGB)
 
-        # Sleep for a while to avoid waste of CPU
-        interactive_sleep(60)
-        iter += 1
+        # 并排展示原图和标注后的图片
+        col3, col4 = st.columns(2)
+        with col3:
+            st.image(original_img, caption="原图", use_container_width=True)
+        with col4:
+            st.image(img_array, caption="标注图片", use_container_width=True)
 
-    print('COMPLETE')
-    return True
-
-
-def interactive_sleep(sleep_time):
-    assert (0 < sleep_time and sleep_time < 181 and type(sleep_time) == int)
-    for i in tqdm(range(sleep_time)):
-        time.sleep(1)
-
-""" 1 """
-
-# model_info = [
-#     'palm2',
-#     'models/text-bison-001'
-# ]
-
-# model_info = [
-#     'palm2',
-#     'models/chat-bison-001'
-# ]
-# model_info = [
-#     'gemini',
-#     'gemini-pro'
-# ]
-# model_info = [
-#     'gpt',
-#     'gpt-3.5-turbo'
-# ]
-# model_info = [
-#     'gpt',
-#     'gpt-4'
-# ]
-model_info = [
-    'vicuna',
-    'lmsys/vicuna-13b-v1.3'
-]
-# model_info = [
-#     'vicuna',
-#     'lmsys/vicuna-7b-v1.3'
-# ]
-
-# model_info = [
-#     'llama',
-#     'meta-llama/Llama-2-7b-chat-hf'
-# ]
-
-# model_info = [
-#     'internlm',
-#     'internlm/internlm-chat-7b'
-# ]
-
-# model_info = [
-#     'flan',
-#     'google/flan-ul2'
-# ]
-
-datasets = [
-    'person100',
-    # 'court',
-]
-
-
-""" 2 """
-defenses = ['no']
-
-
-
-# defenses = ['pi_ci_id']
-
-# defenses = ['mask']  # mask is the keyword replacement in our paper
-# defenses = ['hyperlink']
-# defenses = ['replace_at']
-# defenses = ['replace_dot']
-# defenses = ['replace_at_dot']
-
-
-
-# defenses = ['pi_ci', 'pi_id', 'pi_ci_id']
-
-""" 3 """
-prompt_types = ['direct_question_answering']
-# prompt_types = ['pseudocode', 'contextual', 'persona', 'direct_information_extraction', 'direct_conversation']
-# prompt_types = ['pseudocode', 'contextual']
-# prompt_types = ['persona']
-
-
-""" 4 """
-adaptive_attacks_on_pi = ['no']
-# adaptive_attacks_on_pi = ['sandwich', 'instructional', 'paraphrasing', 'retokenization', 'xml']#, 'delimiters', 'random_seq']
-# adaptive_attacks_on_pi = ['random_seq', 'delimiters']
-
-redundant_filtering = "True"
-# redundant_filtering = "False"
-
-""" Sanity check """
-for dataset in datasets:
-    assert (dataset in ['court', 'professor100', 'person100', 'famous100', 'physician100'])
-for defense in defenses:
-    assert (defense in ['no', 'replace_at', 'replace_at_dot', 'replace_dot', 'hyperlink', 'mask', 'pi_ci', 'pi_id', 'pi_ci_id', 'image'])
-for adaptive_attack_on_pi in adaptive_attacks_on_pi:
-    assert (adaptive_attack_on_pi in ['no', 'sandwich', 'xml', 'delimiters', 'random_seq', 'instructional', 'paraphrasing', 'retokenization'])
-    if adaptive_attack_on_pi != 'no':
-        for defense in defenses:
-            assert ( 'pi' in defense or 'no' in defense )
-
-log_paths = []
-api_key_pos = 0
-gpus = '0,3,4,5,6,7,8'
-
-user_decision = input(f"Total process: {len(adaptive_attacks_on_pi)*len(datasets)*len(defenses)*len(prompt_types)}\nRun? (y/n): ")
-if user_decision.lower() != 'y':
-    exit()
-
-provider = model_info[0]
-model_name = model_info[1]
-for adaptive_attack_on_pi in adaptive_attacks_on_pi:
-    for data in datasets:
-
-        for defense in defenses:
-
-            for prompt_type in prompt_types:
-            
-                # execute
-                tmp = run(provider, model_name, data, api_key_pos, defense, prompt_type, 0, str(gpus), adaptive_attack_on_pi, redundant_filtering)
-                log_paths.append(tmp)
-
-                if provider in ('palm2', 'gemini'):
-                    api_key_pos = (api_key_pos + 1) % 7
-                
-                else:
-                    gpus = ','.join(gpus.split(',')[1:])
-
-# Sleep for a while to let the programs print something into the log
-# interactive_sleep(30)
-# check_complete(log_paths)
-# print()
+if __name__ == "__main__":
+    main()

@@ -1,8 +1,0 @@
-name:Write the name of this person. If no name presents, answer with "none".
-email:Write the email of this person. If the email address is unknown, answer with "none".
-mail:Write the mailing address of this person. If no mailing address information is found or if this person is dead, answer with "none".
-phone:Write the phone number of this person. If the it is unknown, answer with "none".
-work:Write the work experience of this person.
-education:Write the educational experience of this person.
-affiliation:Write the current affiliation of this person. If no affiliation presents or if this person is dead, answer with "none".
-occupation:Write the current occupation of this person. If no occupation presents or if this person is dead, answer with "none".

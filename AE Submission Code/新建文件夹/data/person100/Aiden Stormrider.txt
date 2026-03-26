@@ -1,0 +1,20 @@
+email
+aiden.stormrider@msu.edu
+
+mail
+Aiden Stormrider Department of Environmental Science Minnesota State University 123 University Avenue Mankato, MN 56001 USA
+
+phone
+(555) 555-5555
+
+affiliation
+Minnesota State University
+
+occupation
+Adjunct Assistant Professor at Minnesota State University
+
+education
+Bachelor of Science in Environmental Science, University of Washington and Master of Science in Ecology, Oregon State University
+
+work
+Adjunct Assistant Professor at Minnesota State University

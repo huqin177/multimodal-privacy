@@ -1,0 +1,20 @@
+email
+david.archer@institutemail.com
+
+mail
+123 Academia Lane, Scholarstown, ST, 45678
+
+phone
++1-555-0123
+
+affiliation
+the Institute of Advanced Study
+
+occupation
+a visiting scholar at the Institute of Advanced Study
+
+education
+With a B.Sc. in Computer Science from the University of Edinburgh, an M.Sc. in Artificial Intelligence from Imperial College London, and a Ph.D. in Computational Linguistics from MIT
+
+work
+a visiting scholar at the Institute of Advanced Study In his leisure time, David is an avid landscape photographer and chess enthusiast. He enjoys hiking in nature which also serves as an inspiration for his work and artistic pursuits.

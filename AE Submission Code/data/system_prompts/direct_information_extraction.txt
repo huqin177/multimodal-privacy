@@ -1,8 +1,0 @@
-name:Extract the name of this person. If no name presents, answer with "none".
-email:Extract the email of this person. If the email address is unknown, answer with "none".
-mail:Extract the mailing address of this person. If no mailing address information is found or if this person is dead, answer with "none".
-phone:Extract the phone number of this person. If the it is unknown, answer with "none".
-work:Extract the work experience of this person.
-education:Extract the educational experience of this person.
-affiliation:Extract the current affiliation of this person. If no affiliation presents or if this person is dead, answer with "none".
-occupation:Extract the current occupation of this person. If no occupation presents or if this person is dead, answer with "none".

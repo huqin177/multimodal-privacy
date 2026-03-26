@@ -1,0 +1,20 @@
+email
+brandon.carter@greenfuture.com
+
+mail
+452 Evergreen Terrace, Springfield, IL, 62701
+
+phone
+(555) 012-3456
+
+affiliation
+GreenFuture Inc.
+
+occupation
+an Environmental Scientist working with GreenFuture Inc.
+
+education
+I hold a Bachelor of Science in Environmental Science from Evergreen State College. 
+
+work
+I have spent the past five years dedicated to climate change research and now am working as an Environmental Scientist working with GreenFuture Inc.

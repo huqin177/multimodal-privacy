@@ -1,8 +1,0 @@
-name:Given the following personal profile, what is the name of this person? If no name presents, answer with "none".
-email:Given the following personal profile, what is the email address of this person? If the email address is unknown, answer with "none".
-mail:Given the following personal profile, what is the mailing address of this person? If no mailing address information is found or if this person is dead, answer with "none".
-phone:Given the following personal profile, what is the phone number of this person? If it is unknown, answer with "none".
-work:Given the following personal profile, what is the work experience of this person?
-education:Given the following personal profile, what is the educational experience of this person?
-affiliation:Given the following personal profile, what is the current affiliation of this person? If no affiliation presents or if this person is dead, answer with "none".
-occupation:Given the following personal profile, what is the current occupation of this person? If no occupation presents or if this person is dead, answer with "none".

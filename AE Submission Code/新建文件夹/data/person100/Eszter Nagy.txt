@@ -1,0 +1,20 @@
+email
+eszter.nagy@nups.edu.hu
+
+mail
+Eszter Nagy National University of Public Service 123 University Street Budapest, Hungary 12345
+
+phone
++36 1 123 4567
+
+affiliation
+the National University of Public Service in Hungary
+
+occupation
+a highly respected political science professor at the National University of Public Service in Hungary
+
+education
+Ph.D. in Political Science from Eötvös Loránd University and Master's Degree in International Relations from Central European University and Bachelor's Degree in Political Science from Budapest University of Technology and Economics
+
+work
+Eszter Nagy is a highly respected political science professor at the National University of Public Service in Hungary. She is known for her expertise in international relations and has published several influential research papers and books in her field. Eszter is a dedicated educator who is passionate about teaching and mentoring the next generation of political scientists. She is also actively involved in academic conferences and debates, contributing to the intellectual discourse on global politics.
